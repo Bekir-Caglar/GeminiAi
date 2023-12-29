@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ai_pages_nav"
+    app:startDestination="@id/askTextFragment">
+
+    <fragment
+        android:id="@+id/askTextFragment"
+        android:name="com.bekircaglar.geminiai.ui.AskTextFragment"
+        android:label="fragment_ask_text"
+        tools:layout="@layout/fragment_ask_text" >
+        <action
+            android:id="@+id/action_askTextFragment_to_askImageAndTextFragment"
+            app:destination="@id/askImageAndTextFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/askImageAndTextFragment"
+        android:name="com.bekircaglar.geminiai.ui.AskImageAndTextFragment"
+        android:label="fragment_ask_image_and_text"
+        tools:layout="@layout/fragment_ask_image_and_text" />
+</navigation>
