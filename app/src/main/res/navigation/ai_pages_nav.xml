@@ -18,5 +18,9 @@
         android:id="@+id/askImageAndTextFragment"
         android:name="com.bekircaglar.geminiai.ui.AskImageAndTextFragment"
         android:label="fragment_ask_image_and_text"
-        tools:layout="@layout/fragment_ask_image_and_text" />
+        tools:layout="@layout/fragment_ask_image_and_text" >
+        <action
+            android:id="@+id/action_askImageAndTextFragment_to_askTextFragment"
+            app:destination="@id/askTextFragment" />
+    </fragment>
 </navigation>

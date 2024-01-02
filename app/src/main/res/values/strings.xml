@@ -6,5 +6,6 @@
     <string name="chat">Chat</string>
     <string name="subtitleText">Text Question</string>
     <string name="subtitleImageAndText">Image Question</string>
+    <string name="subtitleChat">Chat </string>
 
 </resources>

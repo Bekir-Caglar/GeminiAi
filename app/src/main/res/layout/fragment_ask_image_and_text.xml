@@ -54,32 +54,20 @@
             app:layout_constraintTop_toTopOf="@+id/textInputLayout" />
 
         <ImageView
-            android:id="@+id/takePhoteImage"
-            android:layout_width="90dp"
+            android:id="@+id/selectImageImage"
+            android:layout_width="150dp"
             android:layout_height="70dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/border"
             android:padding="5dp"
-            android:src="@drawable/add_a_photo"
+            android:src="@drawable/add_photo_alternate"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/selectImageImage"
-            android:layout_width="90dp"
-            android:layout_height="70dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/border"
-            android:padding="5dp"
-            android:src="@drawable/photo_library"
-            app:layout_constraintStart_toEndOf="@+id/takePhoteImage"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
             android:id="@+id/selectedImage"
-            android:layout_width="90dp"
+            android:layout_width="150dp"
             android:layout_height="70dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"

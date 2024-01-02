@@ -8,8 +8,5 @@
         android:id="@+id/askImageAndTextFragment"
         android:icon="@drawable/image_icon"
         android:title="@string/image"/>
-    <item
-        android:id="@+id/chatFragment"
-        android:icon="@drawable/chat_icon"
-        android:title="@string/chat"/>
+
 </menu>

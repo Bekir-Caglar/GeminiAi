@@ -46,6 +46,7 @@ import java.io.InputStream
 class AskImageAndTextFragment : Fragment() {
 
     private lateinit var binding: FragmentAskImageAndTextBinding
+    // Get your API key from https://makersuite.google.com/app/apikey
     private val API_KEY = "YOUR_API_KEY"
     private lateinit var permissionLauncher : ActivityResultLauncher<String>
     private lateinit var activityResultLanuncher : ActivityResultLauncher<Intent>
@@ -62,6 +63,7 @@ class AskImageAndTextFragment : Fragment() {
     ): View? {
         binding = FragmentAskImageAndTextBinding.inflate(inflater, container, false)
         val view = binding.root
+
         binding.selectImageImage.setOnClickListener {
             if (Build.VERSION.SDK_INT >= 33){
                 if (ContextCompat.checkSelfPermission(requireContext(), android.Manifest.permission.READ_MEDIA_IMAGES) != PackageManager.PERMISSION_GRANTED) {
